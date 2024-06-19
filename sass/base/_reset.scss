@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  padding: 0 120px;
+  margin: 0 auto;
+  max-width: 1940px;
+}
+
+a {
+  color: inherit;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 20px 20px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    padding: 20px 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    padding: 20px 60px;
+  }
+}
+@media (min-width: 1440px) {
+  .container {
+    padding: 20px 120px;
+  }
+}

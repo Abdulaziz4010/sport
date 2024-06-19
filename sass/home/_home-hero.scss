@@ -1,0 +1,56 @@
+.hero {
+  width: 100%;
+  padding: 0px 100px;
+  background: rgb(213, 208, 208);
+  display: flex;
+  gap: 20px;
+  .hero__box {
+    width: 100%;
+    padding: 20px 20px;
+    display: flex;
+    gap: 20px;
+  }
+  .hero__box__left {
+    width: 50%;
+    max-height: 400px;
+    padding: 20px 40px;
+    display: flex;
+    gap: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    img {
+      width: 300px;
+    }
+  }
+  .hero__box__left-img {
+    order: 2;
+  }
+  .hero__box__left__the {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .hero__box__left-title {
+    padding: 70px 0px 0 0;
+    width: 70%;
+    font-weight: 600;
+  }
+  .hero__box__left__btn {
+    width: 150px;
+    padding: 10px 30px;
+    border: 2px solid #fbd029;
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .hero__right {
+    width: 50%;
+    display: flex;
+  }
+  .hero__right__first {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
